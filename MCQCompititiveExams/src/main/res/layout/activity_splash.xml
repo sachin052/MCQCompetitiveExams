@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.example.sachin.mcqcompetativeexams.my.example.sachin.mcqcompetativeexams.splash">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+  android:gravity="center"
+       android:orientation="vertical"
+       android:layout_weight="1"
+       >
+
+
+
+       <com.wang.avi.AVLoadingIndicatorView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:indicatorName="BallSpinFadeLoaderIndicator"
+
+           app:indicatorColor="@color/colorPrimaryDark"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_marginTop="8dp"
+           android:layout_height="wrap_content"
+           android:text="VERSION"
+           android:id="@+id/version"
+           android:gravity="center"
+
+           />
+   </LinearLayout>
+
+</LinearLayout>

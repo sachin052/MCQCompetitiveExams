@@ -1,0 +1,168 @@
+{
+  "project_info": {
+    "project_number": "724929636168",
+    "firebase_url": "https://mcqs-17dc2.firebaseio.com",
+    "project_id": "mcqs-17dc2",
+    "storage_bucket": "mcqs-17dc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724929636168:android:b08c9ebec596b2d8",
+        "android_client_info": {
+          "package_name": "com.example.sachin.add_data"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724929636168-74gfife9i866m5bili3po1at3p7k8ke1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sachin.add_data",
+            "certificate_hash": "53ab4532e9e18c153ffdc2903c01f556dfe5a3bd"
+          }
+        },
+        {
+          "client_id": "724929636168-40p0drcbchsrtoak6kcjtgblf5htnun1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sachin.add_data",
+            "certificate_hash": "f9057a70e061126914a09e49be1c77c5cc155dda"
+          }
+        },
+        {
+          "client_id": "724929636168-rb71npfp12u3fmeokoar6eelubj8n7tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMRtZO5x4X4tUqeS-zl-vYVIAqA-M6pe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724929636168-rb71npfp12u3fmeokoar6eelubj8n7tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724929636168:android:b314e2123a64f8d2",
+        "android_client_info": {
+          "package_name": "com.example.sachin.mcqcompetativeexams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724929636168-lifvkvtve4bvftpdrtohgpsukpbmmoru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sachin.mcqcompetativeexams",
+            "certificate_hash": "53ab4532e9e18c153ffdc2903c01f556dfe5a3bd"
+          }
+        },
+        {
+          "client_id": "724929636168-vgbm8dpm2nvijhl63q6602j83nr4r81p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sachin.mcqcompetativeexams",
+            "certificate_hash": "f9057a70e061126914a09e49be1c77c5cc155dda"
+          }
+        },
+        {
+          "client_id": "724929636168-rb71npfp12u3fmeokoar6eelubj8n7tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMRtZO5x4X4tUqeS-zl-vYVIAqA-M6pe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724929636168-rb71npfp12u3fmeokoar6eelubj8n7tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-7443649607874529~6063001230"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724929636168:android:3ef3199ea8a995aa",
+        "android_client_info": {
+          "package_name": "my.skrm.sachin.mcqcompetativeexams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724929636168-rsiuk1hqnnh50cto54ht165qo4smgma3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.skrm.sachin.mcqcompetativeexams",
+            "certificate_hash": "53ab4532e9e18c153ffdc2903c01f556dfe5a3bd"
+          }
+        },
+        {
+          "client_id": "724929636168-kfmc5p8e8jogniq31842m3qrq6mv1bf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.skrm.sachin.mcqcompetativeexams",
+            "certificate_hash": "f9057a70e061126914a09e49be1c77c5cc155dda"
+          }
+        },
+        {
+          "client_id": "724929636168-rb71npfp12u3fmeokoar6eelubj8n7tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMRtZO5x4X4tUqeS-zl-vYVIAqA-M6pe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724929636168-rb71npfp12u3fmeokoar6eelubj8n7tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

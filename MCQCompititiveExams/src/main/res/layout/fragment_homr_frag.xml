@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear"
+    android:layout_margin="2dp"
+    android:background="@drawable/redborder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_height="140dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#FFF"
+                    android:weightSum="3" android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/adduser"
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:layout_height="50dp"
+
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/circle"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_chrome_reader_mode_black_24dp"></ImageView>
+
+                        <TextView
+                            android:id="@+id/name2"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center"
+                            android:text="Current Affairs"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="#000">
+
+                        </View>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Available Test : 35+"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom"
+                            android:layout_height="match_parent">
+
+
+                            <Button
+                                android:layout_width="110dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn1"
+                                android:layout_marginRight="8dp"
+                                android:background="@drawable/corner_button"
+                                android:text="Take Test"
+                                android:layout_marginBottom="20dp"
+                                android:textAllCaps="false"
+                                android:textColor="#000"
+                                android:layout_gravity="right" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+
+                android:layout_marginTop="10dp"
+                android:layout_height="140dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#FFF"
+                    android:weightSum="3" android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:layout_height="50dp"
+
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/redcircle"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_computer_black_24dp"></ImageView>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center"
+                            android:text="Computers"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="#000">
+
+                        </View>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Available Test : 35+"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom"
+                            android:layout_height="match_parent">
+
+
+                            <Button
+                                android:layout_width="110dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn2"
+                                android:layout_marginRight="8dp"
+                                android:background="@drawable/corner_button"
+                                android:text="Take Test"
+                                android:layout_marginBottom="20dp"
+                                android:textAllCaps="false"
+                                android:textColor="#000"
+                                android:layout_gravity="right" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+
+                android:layout_marginTop="10dp"
+                android:layout_height="140dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#FFF"
+                    android:weightSum="3" android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:layout_height="50dp"
+
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/greencircle"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_lightbulb_outline_black_24dp"></ImageView>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center"
+                            android:text="Static GK"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="#000">
+
+                        </View>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Available Test : 25+"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom"
+                            android:layout_height="match_parent">
+
+
+                            <Button
+                                android:layout_width="110dp"
+                                android:layout_height="30dp"
+                                android:layout_marginRight="8dp"
+                                android:id="@+id/btn3"
+                                android:background="@drawable/corner_button"
+                                android:text="Take Test"
+                                android:layout_marginBottom="20dp"
+                                android:textAllCaps="false"
+                                android:textColor="#000"
+                                android:layout_gravity="right" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+
+                android:layout_marginTop="10dp"
+                android:layout_height="140dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#FFF"
+                    android:weightSum="3" android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:layout_height="50dp"
+
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/purplecircle"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_bubble_chart_black_24dp"></ImageView>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center"
+                            android:text="General Science"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="#000">
+
+                        </View>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Available Test : 20+"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="bottom"
+                            android:layout_height="match_parent">
+
+
+                            <Button
+                                android:layout_width="110dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn4"
+                                android:layout_marginRight="8dp"
+                                android:background="@drawable/corner_button"
+                                android:text="Take Test"
+                                android:layout_marginBottom="20dp"
+                                android:textAllCaps="false"
+                                android:textColor="#000"
+                                android:layout_gravity="right" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
